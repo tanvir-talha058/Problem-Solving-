@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    char a[14];
+
+    scanf("%s",a);
+
+        printf("%c%c%c\n",a[0],a[1],a[2]);
+        printf("%c%c%c\n",a[4],a[5],a[6]);
+        printf("%c%c%c\n",a[8],a[9],a[10]);
+        printf("%c%c\n",a[12],a[13]);
+
+    return 0;
+
+
+}
