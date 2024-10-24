@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    int a,b,c,x,y,z,m,n;
+    scanf("%d %d %d",&a,&b,&c);
+    x=(a-b);
+    y=(a*b*c*x);
+    z=((a+b+y)/2);
+    if(a>=b && a>=c){ 
+    m=a;
+    }
+    else if(b>=a && b>=c){
+        m=b;
+    }
+    else{
+        m=c;
+    }
+    printf("%d eh o maior\n",m);
+    return 0;
+}
