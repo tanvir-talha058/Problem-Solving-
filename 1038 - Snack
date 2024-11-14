@@ -11,6 +11,7 @@ int main()
         printf("Total: Tk %.2f\n",price);
     }
     if(x==2)
+
     {
         price=(4.50*y);
         printf("Total: Tk %.2f\n",price);
@@ -31,5 +32,4 @@ int main()
         printf("Total: Tk %.2f\n",price);
     }
     
-
     return 0;
